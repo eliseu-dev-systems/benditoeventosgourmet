@@ -1,57 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bendito Eventos Gourmet - eventos especiais com sabor e qualidade.">
-  <title>Bendito Eventos Gourmet</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2b1408">
+  <meta name="description" content="Bendito Eventos Gourmet: estações foodbike, churros gourmet ao vivo e experiências gastronômicas para casamentos, mini weddings, galas e eventos corporativos.">
+  <title>Bendito Eventos Gourmet | Experiências gastronômicas</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Bendito Eventos Gourmet</h1>
-    <p>Transformando momentos em experiências especiais.</p>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Bendito Eventos — página inicial">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-name">Bendito <small>Eventos Gourmet</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#experiencia">Experiência</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="button button-small header-cta"
+         href="https://wa.me/5511982506343?text=Ol%C3%A1%2C%20Bendito%20Eventos%21%20Gostaria%20de%20um%20or%C3%A7amento."
+         target="_blank" rel="noopener noreferrer">
+        Fale no WhatsApp <span aria-hidden="true">↗</span>
+      </a>
+    </div>
   </header>
 
-  <main>
-    <section>
-      <h2>Bem-vindo!</h2>
-      <p>Conheça nossos serviços e descubra como tornar seu evento inesquecível.</p>
+  <main id="conteudo">
+    <section class="hero section-cream" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> Atendimento personalizado &amp; pontualidade</p>
+          <h1 id="hero-title">Experiência gastronômica <em>inesquecível</em> para o seu evento.</h1>
+          <p class="hero-description">
+            Levamos o charme afetivo da nossa foodbike artesanal e a perfeição dos churros gourmet preparados na hora.
+            Uma atração memorável para casamentos, mini weddings, galas, aniversários e confraternizações corporativas.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="https://wa.me/5511982506343?text=Ol%C3%A1%2C%20Bendito%20Eventos%21%20Quero%20conversar%20sobre%20meu%20evento."
+               target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▣</span> Conversar no WhatsApp</a>
+            <a class="button button-light" href="#servicos">Conhecer estações &amp; sabores <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-stats" aria-label="Nossos destaques">
+            <div><strong>100%</strong><span>Feito ao vivo</span></div>
+            <div><strong>5.0</strong><span>☆ Avaliação</span></div>
+            <div><strong>+250</strong><span>Celebrações</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-frame">
+            <img src="imagens/estacao-vintage.jpg" alt="Estação foodbike vintage preparada para um evento" fetchpriority="high">
+            <div class="image-caption">
+              <span class="caption-icon" aria-hidden="true">✿</span>
+              <span><strong>Estrutura Foodbike Vintage</strong><small>Madeira nobre, todo o charme e iluminação cênica</small></span>
+              <span class="exclusive">Exclusiva</span>
+            </div>
+          </div>
+          <span class="hero-decoration hero-decoration-one" aria-hidden="true"></span>
+          <span class="hero-decoration hero-decoration-two" aria-hidden="true"></span>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Nossos serviços</h2>
-      <p>Em breve, apresentaremos aqui nossos serviços e opções para eventos.</p>
+    <section class="services section-soft" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Estrutura &amp; cardápio</p>
+          <h2 id="services-title">A Alta Gastronomia dos Churros</h2>
+          <p>Cada detalhe pensado para transformar a hora da sobremesa no ponto alto e mais elogiado do seu evento.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">▤</span>
+            <h3>Estação Foodbike Vintage</h3>
+            <p>Mobiliário em pinho artesanal, rodas estilizadas, ombrelone refinado e iluminação cênica acolhedora que harmonizam com decorações clássicas, rústicas e modernas.</p>
+            <span class="card-foot">◉ Montagem impecável &amp; completa</span>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">♨</span>
+            <h3>Churros Gourmet ao Vivo</h3>
+            <p>Massa sequinha, dourada e crocante frita na hora, recheada fartamente com Doce de Leite puro, Brigadeiro Belga, Ninho e complementada com toppings selecionados.</p>
+            <span class="card-foot">◉ Insumos nobres &amp; sabor autêntico</span>
+          </article>
+          <article class="service-card">
+            <span class="service-icon" aria-hidden="true">♙</span>
+            <h3>Equipe Uniformizada</h3>
+            <p>Atendentes dedicados, pontuais e com padrão rigoroso de higiene e luvas e adereços, prontos para encantar os convidados com cordialidade e agilidade contínuas.</p>
+            <span class="card-foot">◉ Postura profissional de salão</span>
+          </article>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Avaliações de clientes</h2>
-      <p>Confira as opiniões de quem já viveu essa experiência.</p>
-      <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">
-        Ver avaliações
-      </a>
+    <section class="gallery section-cream" id="galeria" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">Galeria de eventos</p>
+            <h2 id="gallery-title">O Encanto Visto de Perto</h2>
+          </div>
+          <div class="gallery-tags" aria-label="Diferenciais">
+            <span>Feito na hora</span><span>Ingredientes premium</span><span>Apresentação impecável</span>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card gallery-card-large">
+            <img src="imagens/churros-gourmet.jpg" alt="Churros gourmet com recheio e cobertura preparados para servir" loading="lazy">
+            <figcaption><strong>Sabor &amp; textura</strong><span>Cremoso por cima, crocante por dentro</span><small>Finalização artesanal individual para cada convidado degustar fresco e quentinho.</small></figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="imagens/equipe.jpg" alt="Equipe da Bendito Eventos atendendo junto à estação gastronômica" loading="lazy">
+            <figcaption><strong>Hospitalidade</strong><span>Equipe dedicada</span><small>Cuidado em cada detalhe de serviço.</small></figcaption>
+          </figure>
+          <figure class="gallery-card">
+            <img src="imagens/estacao-vintage.jpg" alt="Estação foodbike decorada para uma celebração" loading="lazy">
+            <figcaption><strong>Cenografia gourmet</strong><span>A foodbike no seu espaço</span><small>Mobiliário e perfeita harmonia com os elementos decorativos do evento.</small></figcaption>
+          </figure>
+        </div>
+
+        <div class="menu-strip">
+          <span class="menu-icon" aria-hidden="true">⚒</span>
+          <div><strong>Recheios e Toppings Favoritos</strong><p>Doce de Leite Viçosa, Brigadeiro Tradicional, Creme de Ninho, Nutella, Paçoca e confeitos nobres.</p></div>
+          <a class="button button-white" href="https://wa.me/5511982506343?text=Ol%C3%A1%21%20Gostaria%20de%20receber%20o%20card%C3%A1pio%20completo%20da%20Bendito%20Eventos."
+             target="_blank" rel="noopener noreferrer">Solicitar cardápio completo <span aria-hidden="true">›</span></a>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Entre em contato</h2>
-      <p>Vamos conversar sobre seu próximo evento!</p>
+    <section class="testimonials section-soft" id="depoimentos" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading testimonial-heading">
+          <p class="rating-line" aria-label="Avaliação demonstrativa de cinco em cinco">☆ ☆ ☆ ☆ ☆ <span>5.0 de 5.0</span></p>
+          <h2 id="testimonials-title">O Que Dizem Quem Já Celebrou<br class="desktop-break"> Conosco</h2>
+          <p>Histórias reais de casamentos inesquecíveis, festivais irradiantes e confraternizações corporativas de sucesso.</p>
+        </div>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>A foodbike foi simplesmente a sensação da nossa festa de casamento! A fila estava animadíssima e os churros bem quentinhos com doce de leite super farto. Ganhou o coração de todos os convidados. A equipe foi impecável!</blockquote>
+            <div class="reviewer"><span class="avatar">M&amp;R</span><span><strong>Mariana &amp; Rodrigo</strong><small>Casamento na Fazenda • Campinas/SP</small></span></div>
+          </article>
+          <article class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Contratamos para o evento de encerramento da nossa empresa e a superou qualquer expectativa. Pontualidade britânica na montagem, apresentação linda e sabores de primeira. Com certeza virão em muitos minutos. Recomendamos de olhos fechados.</blockquote>
+            <div class="reviewer"><span class="avatar">FC</span><span><strong>Fernanda Castilho</strong><small>Coordenação de Eventos Corporativos</small></span></div>
+          </article>
+          <article class="testimonial-card">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>Como cerimonialista, tenho critérios exigentes para fornecedores. A Bendito sempre entrega excelência estética, higiene absoluta e gentileza sem igual. É uma atração que valoriza qualquer projeto decorativo!</blockquote>
+            <div class="reviewer"><span class="avatar">GS</span><span><strong>Gabriela Silveira</strong><small>Assessoria e Cerimonial de Luxo</small></span></div>
+          </article>
+        </div>
+        <p class="instagram-note">Quer ver vídeos ao vivo de outros eventos e depoimentos? <a href="https://www.instagram.com/bentidoeventosgourmet/" target="_blank" rel="noopener noreferrer">Veja nossos destaques no Instagram ↗</a></p>
+      </div>
+    </section>
 
-      <p>
-        <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
-          Fale conosco pelo WhatsApp
-        </a>
-      </p>
-
-      <p>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          Siga-nos no Instagram
-        </a>
-      </p>
+    <section class="contact section-dark" id="contato" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow eyebrow-dark"><span aria-hidden="true">▣</span> Consulte sua data com antecedência</p>
+          <h2 id="contact-title">Pronto para encantar os seus convidados com a Bendito?</h2>
+          <p>As datas para fins de semana e temporadas de casamentos costumam se esgotar rapidamente. Envie uma mensagem agora para receber nossa proposta personalizada com opções de pacotes para o seu número de convidados.</p>
+          <div class="contact-benefits">
+            <div><strong>◉ Resposta ágil</strong><span>Orçamento detalhado em até 2 horas</span></div>
+            <div><strong>◉ Área de atendimento</strong><span>São Paulo, Região Metropolitana e interior</span></div>
+          </div>
+        </div>
+        <aside class="contact-panel" aria-label="Contato direto">
+          <h3>Fale Direto com a Nossa Equipe</h3>
+          <p>Clique abaixo para iniciar uma conversa no WhatsApp e reservar a data do seu evento.</p>
+          <a class="button button-gold" href="https://wa.me/5511982506343?text=Ol%C3%A1%2C%20Bendito%20Eventos%21%20Gostaria%20de%20consultar%20a%20disponibilidade%20para%20meu%20evento."
+             target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▣</span> Solicitar orçamento no WhatsApp</a>
+          <div class="contact-panel-meta"><a href="https://www.instagram.com/bentidoeventosgourmet/" target="_blank" rel="noopener noreferrer">◎ @bentidoeventosgourmet</a><span>● Atendimento online</span></div>
+        </aside>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Bendito Eventos Gourmet</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-name">Bendito <small>Eventos Gourmet</small></span></a>
+          <p>Gastronomia artesanal e experiências sofisticadas para celebrações memoráveis. Levamos o charme da foodbike e a alta confeitaria ao seu evento.</p>
+          <div class="social-links">
+            <a href="https://wa.me/5511982506343" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Bendito Eventos">▣</a>
+            <a href="https://www.instagram.com/bentidoeventosgourmet/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Bendito Eventos">◎</a>
+          </div>
+        </div>
+        <div>
+          <h3>Navegação Rápida</h3>
+          <ul class="footer-links">
+            <li><a href="#inicio">Início</a></li><li><a href="#servicos">Serviços &amp; Pacotes</a></li><li><a href="#experiencia">A Experiência Bendito</a></li><li><a href="#galeria">Galeria de Fotos</a></li><li><a href="#depoimentos">Depoimentos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Ocasiões</h3>
+          <ul class="footer-links">
+            <li><a href="#contato">Casamentos &amp; Mini Weddings</a></li><li><a href="#contato">Eventos Corporativos &amp; Galas</a></li><li><a href="#contato">Aniversários &amp; Batizados</a></li><li><a href="#contato">Estações Gastronômicas Móveis</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Atendimento</h3>
+          <ul class="footer-links footer-contact">
+            <li>◉ Atendimento em São Paulo, Campinas e Região</li>
+            <li>◷ Seg – Sáb: 09:00 às 19:00</li>
+            <li>▣ <a href="https://wa.me/5511982506343" target="_blank" rel="noopener noreferrer">Fale com a nossa equipe</a></li>
+            <li>◎ <a href="https://www.instagram.com/bentidoeventosgourmet/" target="_blank" rel="noopener noreferrer">@bentidoeventosgourmet</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Bendito Eventos Gourmet. Todos os direitos reservados.</span>
+        <span>Feito com afeto e muito cuidado</span>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
