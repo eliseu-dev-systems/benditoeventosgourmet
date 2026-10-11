@@ -59,6 +59,15 @@ a:focus-visible {
 }
 .header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .brand { display: inline-flex; align-items: center; gap: 9px; text-decoration: none; flex-shrink: 0; }
+
+.brand-logo {
+  display: block;
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .brand-mark {
   display: grid; place-items: center; width: 31px; height: 31px;
   color: #f8e5c6; background: #9b7043; border: 2px solid #d8bd93;
