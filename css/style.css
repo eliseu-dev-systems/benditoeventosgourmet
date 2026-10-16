@@ -178,7 +178,7 @@ h1, h2 { font-family: Georgia, 'Times New Roman', serif; font-weight: 500; lette
 .reviewer strong, .reviewer small { display: block; }
 .reviewer strong { font-size: 11px; font-weight: 600; }
 .reviewer small { margin-top: 3px; color: #887c70; font-size: 9px; }
-.instagram-note { margin: 27px 0 0; color: #786d62; font-size: 11px; text-align: center; }
+.instagram-note { margin: 27px 0 0; color: #786d62; font-size: 16px; text-align: center; }
 .instagram-note a { color: #6d421f; font-weight: 700; text-decoration: none; }
 .instagram-note a:hover { text-decoration: underline; }
 
